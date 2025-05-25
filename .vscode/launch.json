@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-version-mcp}",
+            "name": "Debug swift-version-mcp",
+            "program": "${workspaceFolder:swift-version-mcp}/.build/debug/swift-version-mcp",
+            "preLaunchTask": "swift: Build Debug swift-version-mcp"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-version-mcp}",
+            "name": "Release swift-version-mcp",
+            "program": "${workspaceFolder:swift-version-mcp}/.build/release/swift-version-mcp",
+            "preLaunchTask": "swift: Build Release swift-version-mcp"
+        }
+    ]
+}
